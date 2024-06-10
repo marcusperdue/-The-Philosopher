@@ -1,0 +1,86 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.create-book-container {
+    margin-bottom: 20px;
+}
+
+
+.books-container {
+    width: 100%; 
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    gap: 20px;  
+}
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+ 
+
+.create-book-btn {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-book-btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.create-book-btn:active {
+    background-color: #1c6ea4;
+}
+
+.create-book-btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(52, 152, 219, 0.5);
+}
+
+.edit-book-btn {
+    background-color: #8e44ad; 
+    color: #fff; 
+    border: none;  
+    padding: 12px 20px;  
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer;  
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.edit-book-btn:hover {
+    background-color: #732d91;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}
+
+.edit-book-btn:active {
+    background-color: #5e3370; /
+}
+
+.edit-book-btn:focus {
+    outline: none;  
+    box-shadow: 0 0 0 3px rgba(142, 68, 173, 0.5);  
+}
